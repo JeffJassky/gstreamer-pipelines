@@ -1,10 +1,6 @@
 # Broken GStreamer Pipelines
 
-I’m am creating a photo/video recording application that mimics a standard smartphone camera application. The application is an nvidia/linux-based kiosk photo/video recording booth.
-
-The goal of using gstreamer in the application is to preview, capture, and stream live audio and video from a UVC camera and asla/pulse audio device.
-
-I am new to gstreamer. I have pieced together these pipelines from reading documentation and examples. They are close to what I need but need improvements or debugging. I’ve done my best to document the pipelines below. 
+I’m am creating a photo/video recording interface to run on linux. The goal of using gstreamer in the application is to preview, capture, and stream live audio and video from a UVC camera and asla/pulse audio device. I have documented my broken pipelines to the best of my ability below.
 
 ## Pipeline #1 - Camera Preview
 **Goal:** Preview a 1280x960 live feed of the camera on the display<br/>

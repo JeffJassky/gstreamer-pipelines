@@ -20,22 +20,22 @@ Program should stay alive, accepting commands via stdin, returning information t
 
 ### Commands:
 `preview-start`<br />
-Adds nvoverlaysink to pipeline, showing live preview on display <br /><br />
+Adds nvoverlaysink to pipeline, showing live preview on display <br />
 
 `preview-stop` <br />
-Removes nvoverlaysink <br /><br />
+Removes nvoverlaysink <br />
 
 `capture-start {/path/to/filename.mp4}`<br />
-Adds filesink to pipeline, recording h264 encoded video <br /><br />
+Adds filesink to pipeline, recording h264 encoded video <br />
 
 `capture-stop`<br />
-Stops filesink <br /><br />
+Stops filesink <br />
 
 `stream-start {RTMP Server URL}`<br />
-Adds rtmpsink to pipeline, streaming audio/video to server <br /><br />
+Adds rtmpsink to pipeline, streaming audio/video to server <br />
 
 `stream-stop`<br />
-Stops rtmpsink <br /><br />
+Stops rtmpsink <br />
 
 `quit`<br />
 Stops pipeline and exits program <br />
